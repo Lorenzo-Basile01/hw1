@@ -1,0 +1,136 @@
+/*navigation bar*/
+body {
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  background-image: url(https://previews.123rf.com/images/serhiibrovko/serhiibrovko1710/serhiibrovko171000023/87339874-zampa-zampa-senza-soluzione-di-continuit%C3%A0-di-gatto-e-gatto-impronta-senza-soluzione-di-continuit%C3%A0-il.jpg);
+  
+}
+/*header*/
+
+/*navigation bar*/
+nav {
+  background-color: rgb(189, 187, 187);
+  height: 60px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  #menu {
+    margin-right: 20px;
+  }
+  #menu a {
+    margin: 10px;
+    font-size: 0.8em;
+  }
+}
+nav a {
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  color: rgb(35, 104, 233);
+}
+
+nav a:hover {
+  color: blueviolet;
+}
+header {
+  margin-top: 60px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  width: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+
+  border: 3px solid black;
+  padding-bottom: 10px;
+}
+
+form {
+  width: 350px;
+}
+
+.album-view {
+  margin-bottom: 20px;
+
+  height:300px;
+  width: 110%;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  box-sizing: border-box;
+}
+
+.album-view img {
+  margin: 5px;
+  max-height:30%;
+  max-width: 30%;
+} 
+
+#botton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#cerca{
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: aquamarine;
+  font-size: 1.3em;
+  margin-top: 10px;
+}
+
+.submit input{
+  width: 100%;
+  height: 40px;
+  background-color: aquamarine;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hidden{
+  display: none;
+}
+.border{
+  border: 3px solid #05a388;
+}

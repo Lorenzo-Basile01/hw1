@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  background-image: url(https://previews.123rf.com/images/serhiibrovko/serhiibrovko1710/serhiibrovko171000023/87339874-zampa-zampa-senza-soluzione-di-continuit%C3%A0-di-gatto-e-gatto-impronta-senza-soluzione-di-continuit%C3%A0-il.jpg);
+  
+}
+/*header*/
+
+/*navigation bar*/
+nav {
+  background-color: rgb(189, 187, 187);
+  height: 60px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  #menu {
+    margin-right: 20px;
+  }
+  #menu a {
+    margin: 10px;
+    font-size: 0.8em;
+  }
+}
+nav a {
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  color: rgb(35, 104, 233);
+}
+
+.username{
+  margin-left: 40px;
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  color: blueviolet;
+}
+
+nav a:hover {
+  color: blueviolet;
+}
+
+header {
+  margin-top: 60px;
+}
+
+#posts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 66.67%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+.index {
+  /*background-color: blueviolet;*/
+  width: 40px;
+  text-align: start;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+#posts section {
+  background-color: lightgray;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 70%;
+
+  margin-bottom: 40px;
+
+  border: 3px solid burlywood;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+section h2 {
+  margin: 20px 20px 2px 0px;
+}
+
+section h5, section h6, section h3{
+  margin: 0px 20px 5px 20px;
+  font-style: italic;
+}
+
+section p {
+  margin: 20px 0px;
+}
+@media (max-width: 500px) {
+  section {
+    width: 80%;
+  }
+  .index {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  section img {
+    width: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content p{
+  margin-left: 0px;
+  margin-top: 1px;
+  margin-bottom: 6px;
+}
+
+.like {
+  margin-bottom: 0px;
+
+  background-color: bisque;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+}
+
+.cuore {
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.immagini{
+  max-width: 90%;
+  max-height: 70%;
+  margin-bottom: 5px;
+}
+.bottoni{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.usertime{
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.descrizione{
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
